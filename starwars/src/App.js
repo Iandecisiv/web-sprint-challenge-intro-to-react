@@ -1,4 +1,5 @@
 import React from 'react';
+import CharacterList from './components/CharacterList';
 import './App.css';
 
 const App = () => {
@@ -11,7 +12,9 @@ const App = () => {
 
   return (
     <div className="App">
+      <h1>Welcome to the star wars Character api display!</h1>
       <h1 className="Header">Characters</h1>
+      <CharacterList />
     </div>
   );
 }
